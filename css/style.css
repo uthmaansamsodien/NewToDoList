@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.container{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+h1{
+    text-decoration-line: underline;
+}
+button{
+    width: 100%;
+    background-color: darkgreen;
+    color: lightgray;
+    margin: 1rem;
+    }
+    button:hover{
+        background-color: lightgrey;
+        color: darkgreen;
+    }
+
+.todo{
+    border: 10px solid darkgreen;
+    background-color: white;
+    padding: 2rem;
+}
+.input{
+    align-items: center;
+    text-align: center;
+}
+#Add{
+    align-items: center;
+}
+.row {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+#checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#xButton{
+    background-color: red;
+    width: 20px
+}
+#xButton:hover{
+    color: white;
+}
+
+.rowToDo{
+    text-align: center;
+}
